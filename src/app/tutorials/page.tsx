@@ -1,3 +1,4 @@
+tsx
 import TutorialCard from "@/components/tutorials/TutorialCard";
 import { Smartphone, IndianRupee, MapPin, Mail, Camera, Video } from "lucide-react"; // More icons
 
@@ -8,7 +9,7 @@ const tutorials = [
     imageUrl: "https://placehold.co/600x400.png",
     Icon: Smartphone,
     tutorialLink: "/tutorials/whatsapp", // Placeholder link
-    imageHint: "chat mobile"
+    imageHint: "whatsapp logo"
   },
   {
     title: "Paytm for Beginners",
@@ -16,7 +17,7 @@ const tutorials = [
     imageUrl: "https://placehold.co/600x400.png",
     Icon: IndianRupee,
     tutorialLink: "/tutorials/paytm",
-    imageHint: "payment finance"
+    imageHint: "paytm logo"
   },
   {
     title: "Google Maps Navigation",
@@ -24,7 +25,7 @@ const tutorials = [
     imageUrl: "https://placehold.co/600x400.png",
     Icon: MapPin,
     tutorialLink: "/tutorials/google-maps",
-    imageHint: "map navigation"
+    imageHint: "maps logo"
   },
   {
     title: "Email Essentials",
@@ -32,7 +33,7 @@ const tutorials = [
     imageUrl: "https://placehold.co/600x400.png",
     Icon: Mail,
     tutorialLink: "/tutorials/email",
-    imageHint: "email communication"
+    imageHint: "email app"
   },
   {
     title: "Smartphone Photography",
@@ -40,7 +41,7 @@ const tutorials = [
     imageUrl: "https://placehold.co/600x400.png",
     Icon: Camera,
     tutorialLink: "/tutorials/photography",
-    imageHint: "photo mobile"
+    imageHint: "phone camera"
   },
   {
     title: "Video Calling Guide",
@@ -48,7 +49,7 @@ const tutorials = [
     imageUrl: "https://placehold.co/600x400.png",
     Icon: Video,
     tutorialLink: "/tutorials/video-calling",
-    imageHint: "video call"
+    imageHint: "video app"
   },
 ];
 

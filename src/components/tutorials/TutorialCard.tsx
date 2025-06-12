@@ -1,14 +1,14 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import type { LucideIcon } from "lucide-react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 interface TutorialCardProps {
   title: string;
   description: string;
-  imageUrl: string;
+  imageUrl: StaticImageData;
   Icon: LucideIcon;
   tutorialLink: string;
   imageHint: string;

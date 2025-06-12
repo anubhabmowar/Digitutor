@@ -1,12 +1,17 @@
-tsx
 import TutorialCard from "@/components/tutorials/TutorialCard";
 import { Smartphone, IndianRupee, MapPin, Mail, Camera, Video } from "lucide-react"; // More icons
+import gmail from "@/assets/gmail.jpg"
+import googlemaps from "@/assets/google-maps.jpg"
+import paytm from "@/assets/paytm.jpg"
+import photography from "@/assets/photography.jpg"
+import videocall from "@/assets/video-call.jpg"
+import whatsapp from "@/assets/whatsapp.jpg"
 
 const tutorials = [
   {
     title: "WhatsApp Basics",
     description: "Learn how to send messages, make calls, and share media with friends and family on WhatsApp.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: whatsapp,
     Icon: Smartphone,
     tutorialLink: "/tutorials/whatsapp", // Placeholder link
     imageHint: "whatsapp logo"
@@ -14,7 +19,7 @@ const tutorials = [
   {
     title: "Paytm for Beginners",
     description: "Discover how to make secure online payments, pay bills, and recharge your mobile using Paytm.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: paytm,
     Icon: IndianRupee,
     tutorialLink: "/tutorials/paytm",
     imageHint: "paytm logo"
@@ -22,7 +27,7 @@ const tutorials = [
   {
     title: "Google Maps Navigation",
     description: "Find your way around with Google Maps. Learn to search for locations, get directions, and explore areas.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: googlemaps,
     Icon: MapPin,
     tutorialLink: "/tutorials/google-maps",
     imageHint: "maps logo"
@@ -30,7 +35,7 @@ const tutorials = [
   {
     title: "Email Essentials",
     description: "Master the basics of sending and receiving emails, organizing your inbox, and staying safe online.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: gmail,
     Icon: Mail,
     tutorialLink: "/tutorials/email",
     imageHint: "email app"
@@ -38,7 +43,7 @@ const tutorials = [
   {
     title: "Smartphone Photography",
     description: "Learn to take great photos and videos with your smartphone camera and share your memories.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: photography,
     Icon: Camera,
     tutorialLink: "/tutorials/photography",
     imageHint: "phone camera"
@@ -46,7 +51,7 @@ const tutorials = [
   {
     title: "Video Calling Guide",
     description: "Connect with loved ones face-to-face using video calling apps like Google Meet or WhatsApp Video.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: videocall,
     Icon: Video,
     tutorialLink: "/tutorials/video-calling",
     imageHint: "video app"

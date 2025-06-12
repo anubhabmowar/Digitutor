@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, BotMessageSquareIcon, BookOpenCheckIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import dlc from "@/assets/dlc22.webp";
 
 export default function HomePage() {
   return (
@@ -56,7 +56,7 @@ export default function HomePage() {
         </div>
         <div className="rounded-lg overflow-hidden shadow-xl">
            <Image
-            src="https://placehold.co/600x400.png"
+            src={dlc}
             alt="Happy learners using digital devices"
             width={600}
             height={400}
